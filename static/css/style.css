@@ -1,0 +1,51 @@
+
+
+body{
+    background: #5529b4;
+}
+
+h1{
+    align-items: center;
+    text-align: center;
+    color: #fff;
+
+}
+.main-box{
+    margin-top: 40px;
+    width: 70%;
+    height: 300px;
+    border-radius: 5px;
+    align-items: center;
+    text-align: center;
+    margin-left: 14%;
+    background: #fff;
+}
+
+.main-box h2{
+    margin-top: 50px;
+
+}
+
+.main-box img{
+    background-size: cover;
+    height: 200px;
+    width: 250px;
+    margin-left: 25px;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 767px) {
+    /* Your CSS styles for phones go here */
+
+    .main-box{
+        width: 300px;
+    }
+    .main-box img{
+        height: 150px;
+        width: 160px;
+        margin-left: 10px;
+        border-radius: 5px;
+    }
+  
+    /* Add more styles as needed */
+  }
